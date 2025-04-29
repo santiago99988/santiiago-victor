@@ -1,0 +1,91 @@
+<html>
+
+<head>
+<title> formularios en HTML </title>
+</head>
+
+
+<body style="background-color:green;">
+
+<h1> Matricula al campeonato de ajedrez </h1>
+
+ 
+<figure>
+<img src="aljedrez.jpg" alt="ejemplo de imagen" width="300" height="200">
+
+</figure>
+
+
+<form action="procesar.php"method="post">
+<!--etiqueta de campo-->
+<label for="nombre">Nombre del participante:</label>
+
+<!--campo de entrada -->
+<input type="text"id="nombre"nombre del participante"="nombre"required>
+<br><br>
+
+<form action="procesar.php"method="post">
+<!--etiqueta de campo-->
+<label for="nombre">edad:</label>
+<!--campo de entrada -->
+<input type="text"id="nombre"nombre del participante"="nombre"required>
+<br><br>
+
+<form action="procesar.php"method="post">
+<!--etiqueta de campo-->
+<label for="nombre">talla de camiseta:</label>
+<!--campo de entrada -->
+<input type="text"id="nombre"nombre del participante"="nombre"required>
+<br><br>
+
+<!--menú despegable-->
+<label for="opciones">sexo:</label>
+<select id="opciones"name"="categorias">
+<option velue="femenino">femenino</option>
+<option velue="masculino">masculino</option>
+<option velue="no contesta">no contesta</option>
+</select>
+<br><br>
+
+
+<!--Area de texto-->
+<label for ="mensaje">Dirección :</label>
+<textarea id="mensaje"name="mensaje"rows="4"
+cols="25"></textarea>
+<br><br>
+
+<!--menú despegable-->
+<label for="opciones">selecciona tu categoria:</label>
+<select id="opciones"name"="categorias">
+<option velue="niño 7-13">niño 7-13</option>
+<option velue="adolecente 13-19">adolecente 13-19</option>
+<option velue="adulto 20-para arriba">adulto 20-para arriba</option>
+</select>
+<br><br>
+
+
+<!--menú despegable-->
+<label for="opciones">De que provincia eres:</label>
+<select id="opciones"name"="provincia">
+<option velue="san jose ">san jose</option>
+<option velue="Alajuela">Alajuela</option>
+<option velue="Cartago">Cartago</option>
+<option velue="Heredia">Heredia</option>
+<option velue="Guanacaste">Guanacaste</option>
+<option velue="Puntarenas">Puntarenas</option>
+<option velue="Limon">Limon</option>
+
+
+
+</select>
+<br><br>
+
+
+<!--Boton-->
+<button type="submit">completo</button>
+</form>
+
+
+</select>
+</body>
+</html>
