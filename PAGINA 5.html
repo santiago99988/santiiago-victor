@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>COMENTARIOS </h2>
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email">QUE TE PARECIO LAS PAGINAS </label>
+      <input type="email" class="form-control" id="email" placeholder="ESCRIBIR " name="NOMBRE">
+    </div>
+    <div class="mb-3">
+      <label for="pwd">QUE TAL LOS PRECIOS </label>
+      <input type=" DIJITE TU APELLIDO" class="form-control" id="pwd" placeholder="ESCRIBIR" name="APWLIIDO">
+    </div>
+    <div class="mb-3">
+      <label for="pwd">QUE IDIOMAS QUIERES AGREGAR</label>
+      <input type=" DIJITE TU APELLIDO" class="form-control" id="pwd" placeholder="ESCRBIR" name="APWLIIDO">
+    </div>
+    
+    
+    
+    
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> LISTO?
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">ENVIAR</button>
+  </form>
+</div>
+<img src="data:image/png;base64,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" class="rounded" alt="Cinque Terre"><!DOCTYPE html>
+
+
+    <div class="container mt-3">
+  <div class="progress">
+    <div class="progress-bar" style="width:100%">100%</div>
+  </div>
+</div>
+
+
+
+
+<ul class="pagination">
+    <li class="page-item"><a class="page-link" href="PAGINA 4.html">Volver</a></li>
+    <li class="page-item"><a class="page-link" href="PAGINA 1.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="PAGINA 2.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="PAGINA 3.html">4</a></li>
+    <li class="page-item"><a class="page-link" href="PAGINA 4.html">5</a></li>
+    <li class="page-item"><a class="page-link" href="PAGINA 5.html">6</a></li>
+    <li class="page-item"><a class="page-link" href="Idiomas.html">Siguiente</a></li>
+
+
+
+</body>
+</html>
